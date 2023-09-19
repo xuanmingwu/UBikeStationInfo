@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B650A07E2AB961C0004FBE4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650A07D2AB961C0004FBE4C /* AppDelegate.swift */; };
+		B650A0802AB961C0004FBE4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650A07F2AB961C0004FBE4C /* SceneDelegate.swift */; };
+		B650A0822AB961C0004FBE4C /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650A0812AB961C0004FBE4C /* HomePageVC.swift */; };
+		B650A0852AB961C0004FBE4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B650A0832AB961C0004FBE4C /* Main.storyboard */; };
+		B650A0872AB961C2004FBE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B650A0862AB961C2004FBE4C /* Assets.xcassets */; };
+		B650A08A2AB961C2004FBE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B650A0882AB961C2004FBE4C /* LaunchScreen.storyboard */; };
+		B650A0992AB989BA004FBE4C /* StationInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650A0972AB989BA004FBE4C /* StationInfoTableViewCell.swift */; };
+		B650A09A2AB989BA004FBE4C /* StationInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B650A0982AB989BA004FBE4C /* StationInfoTableViewCell.xib */; };
+		B650A09C2AB99AB1004FBE4C /* UbikeStationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650A09B2AB99AB1004FBE4C /* UbikeStationManager.swift */; };
+		B650A0A02AB9C809004FBE4C /* MenuPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650A09F2AB9C809004FBE4C /* MenuPageVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B650A07A2AB961C0004FBE4C /* UbikeStationInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UbikeStationInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B650A07D2AB961C0004FBE4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B650A07F2AB961C0004FBE4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B650A0812AB961C0004FBE4C /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		B650A0842AB961C0004FBE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B650A0862AB961C2004FBE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B650A0892AB961C2004FBE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B650A08B2AB961C2004FBE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B650A0972AB989BA004FBE4C /* StationInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfoTableViewCell.swift; sourceTree = "<group>"; };
+		B650A0982AB989BA004FBE4C /* StationInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationInfoTableViewCell.xib; sourceTree = "<group>"; };
+		B650A09B2AB99AB1004FBE4C /* UbikeStationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbikeStationManager.swift; sourceTree = "<group>"; };
+		B650A09F2AB9C809004FBE4C /* MenuPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPageVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B650A0772AB961C0004FBE4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B650A0712AB961C0004FBE4C = {
+			isa = PBXGroup;
+			children = (
+				B650A07C2AB961C0004FBE4C /* UbikeStationInfo */,
+				B650A07B2AB961C0004FBE4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B650A07B2AB961C0004FBE4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B650A07A2AB961C0004FBE4C /* UbikeStationInfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B650A07C2AB961C0004FBE4C /* UbikeStationInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B650A07D2AB961C0004FBE4C /* AppDelegate.swift */,
+				B650A07F2AB961C0004FBE4C /* SceneDelegate.swift */,
+				B650A0812AB961C0004FBE4C /* HomePageVC.swift */,
+				B650A09F2AB9C809004FBE4C /* MenuPageVC.swift */,
+				B650A09B2AB99AB1004FBE4C /* UbikeStationManager.swift */,
+				B650A0972AB989BA004FBE4C /* StationInfoTableViewCell.swift */,
+				B650A0982AB989BA004FBE4C /* StationInfoTableViewCell.xib */,
+				B650A0882AB961C2004FBE4C /* LaunchScreen.storyboard */,
+				B650A0832AB961C0004FBE4C /* Main.storyboard */,
+				B650A0862AB961C2004FBE4C /* Assets.xcassets */,
+				B650A08B2AB961C2004FBE4C /* Info.plist */,
+			);
+			path = UbikeStationInfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B650A0792AB961C0004FBE4C /* UbikeStationInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B650A08E2AB961C2004FBE4C /* Build configuration list for PBXNativeTarget "UbikeStationInfo" */;
+			buildPhases = (
+				B650A0762AB961C0004FBE4C /* Sources */,
+				B650A0772AB961C0004FBE4C /* Frameworks */,
+				B650A0782AB961C0004FBE4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UbikeStationInfo;
+			productName = UbikeStationInfo;
+			productReference = B650A07A2AB961C0004FBE4C /* UbikeStationInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B650A0722AB961C0004FBE4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B650A0792AB961C0004FBE4C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B650A0752AB961C0004FBE4C /* Build configuration list for PBXProject "UbikeStationInfo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B650A0712AB961C0004FBE4C;
+			productRefGroup = B650A07B2AB961C0004FBE4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B650A0792AB961C0004FBE4C /* UbikeStationInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B650A0782AB961C0004FBE4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B650A08A2AB961C2004FBE4C /* LaunchScreen.storyboard in Resources */,
+				B650A0872AB961C2004FBE4C /* Assets.xcassets in Resources */,
+				B650A09A2AB989BA004FBE4C /* StationInfoTableViewCell.xib in Resources */,
+				B650A0852AB961C0004FBE4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B650A0762AB961C0004FBE4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B650A09C2AB99AB1004FBE4C /* UbikeStationManager.swift in Sources */,
+				B650A0822AB961C0004FBE4C /* HomePageVC.swift in Sources */,
+				B650A0A02AB9C809004FBE4C /* MenuPageVC.swift in Sources */,
+				B650A07E2AB961C0004FBE4C /* AppDelegate.swift in Sources */,
+				B650A0992AB989BA004FBE4C /* StationInfoTableViewCell.swift in Sources */,
+				B650A0802AB961C0004FBE4C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B650A0832AB961C0004FBE4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B650A0842AB961C0004FBE4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B650A0882AB961C2004FBE4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B650A0892AB961C2004FBE4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B650A08C2AB961C2004FBE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B650A08D2AB961C2004FBE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B650A08F2AB961C2004FBE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FY7948SFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UbikeStationInfo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.UbikeStationInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B650A0902AB961C2004FBE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FY7948SFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UbikeStationInfo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.UbikeStationInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B650A0752AB961C0004FBE4C /* Build configuration list for PBXProject "UbikeStationInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B650A08C2AB961C2004FBE4C /* Debug */,
+				B650A08D2AB961C2004FBE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B650A08E2AB961C2004FBE4C /* Build configuration list for PBXNativeTarget "UbikeStationInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B650A08F2AB961C2004FBE4C /* Debug */,
+				B650A0902AB961C2004FBE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B650A0722AB961C0004FBE4C /* Project object */;
+}
